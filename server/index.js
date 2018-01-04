@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 4000;
 const bodyParser = require('body-parser');
 
 app.use(bodyParser.json());
-app.use(express.static(__dirname + '/../client'));
+app.use(express.static(__dirname + '/../client/dist'));
 app.use('/', router);
 
 app.listen(PORT, () => {
