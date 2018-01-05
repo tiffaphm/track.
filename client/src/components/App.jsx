@@ -1,8 +1,11 @@
 import React from 'react';
+import Nav from './Nav';
+import Main from './Main';
 
 const App = () => (
   <div>
-    HELLO
+    <Nav />
+    <Main />
   </div>
 );
 
