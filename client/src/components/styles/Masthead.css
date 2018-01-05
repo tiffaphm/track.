@@ -1,0 +1,59 @@
+/*#masthead {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  padding: 0em;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 0px;
+  border-bottom: none;
+  background-color: #000000;
+  background-position: 50% 50%;
+  transform: translate3d(0, 0, 0);
+}*/
+
+#masthead {
+  background-image: url(/assets/images/masthead-background.jpg);
+  height: 100vh;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  min-height: 600px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.masthead-content-container > button {
+  background: transparent none !important;
+  color: rgba(255,255,255,.6) !important;
+  font-weight: 400;
+  text-transform: none;
+  text-shadow: none !important;
+  box-shadow: 0 0 0 1px rgba(255,255,255,.25) inset !important;
+  border-radius: .28571429rem;
+  width: 100%;
+  margin-top: -1em;
+  padding: 1em 1.5em 1em !important;
+}
+
+.masthead-content-container > button:hover {
+  color: rgba(255,255,255,1) !important;
+  box-shadow: 0 0 0 1px rgba(255,255,255,1) inset !important;
+  transition:
+    box-shadow 0.4s ease,
+    color 0.4s ease;
+}
+
+.masthead-header {
+  font-size: 10em;
+  color: rgba(255, 255, 255, 1);
+  margin-top: -1.25em;
+  margin-bottom: -0.1em;
+}
+
+.masthead-tagline {
+  font-size: 1em;
+  color: rgba(255,255,255,.65);
+  margin-bottom: 7.9em;
+  margin-left: 2.6em;
+}
