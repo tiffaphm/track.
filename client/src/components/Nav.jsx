@@ -21,7 +21,7 @@ const Nav = () => {
     <div className="nav-container" ref={(div) => { navContainer = div; }}>
       <div className="ui container nav-content">
         <div className="ui large secondary menu inverted" ref={(div) => { navMenu = div; }}>
-          <a className="view-ui item">track.</a>
+          <a className="view-ui item">home</a>
           <a className="item">goals</a>
         </div>
       </div>
